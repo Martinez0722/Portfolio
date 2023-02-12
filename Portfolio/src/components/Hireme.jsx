@@ -11,8 +11,8 @@ const Hireme = () => {
       <p className="text-gray-400 mt-3 text-lg">Se interessou ?</p>
     </div>
     <div className="bg-gray-700 relative px-8 rounded-2xl py-5 lg:max-w-4xl 
-    mx-auto min-h-[24rem] mt-24 flex gap-6 lg:flex-row flex-col-reverse 
-    items-center">
+      mx-auto min-h-[24rem] mt-24 flex gap-6 lg:flex-row flex-col-reverse 
+      items-center">
       <div>
         <h2 className="text-2xl font-semibold">Gostaria de me contatar ?</h2>
         <p className="lg:text-left text-justify text-sm mt-4 text-gray-200 leading-6">
