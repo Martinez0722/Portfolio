@@ -2,8 +2,8 @@ import React from "react";
 
 const Contact = () => {
   const info_contatos =[
-    {logo:'mail', text:"rfaeldel@outlook.com"},
-    {logo:'logo-whatsapp', text:"+55 (12)99612-6551"}
+    {logo:'mail', link:"mailto:rfaeldel@outlook.com", text:"rfaeldel@outlook.com"},
+    {logo:'logo-whatsapp', link:"https://wa.me/5512996126551", text:"+55 (12)99612-6551"}
   ]
   return (
   <section id="contact" className="py-19 px-3 text-white">
@@ -24,7 +24,9 @@ const Contact = () => {
             info_contatos.map((info_contato, i)=>(
               <div className="flex gap-4 w-fit items-center" key={i}>
                 <div className="min-w-[3.5rem] text-3xl min-h-[3.5rem] flex items-center justify-center text-white bg-cyan-600 rounded-full">
-                <ion-icon name={info_contato.logo}></ion-icon>
+                  <a href={info_contato.link} target="_blank">
+                    <ion-icon name={info_contato.logo}>
+                  </ion-icon></a>
                 </div>
                 <p className="text-lg">{info_contato.text}</p>
               </div>
