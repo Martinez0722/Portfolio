@@ -4,31 +4,31 @@ import { DiDjango } from "react-icons/di"
 const Skills = () => {
   const skills = [ 
     {
-      logo: 'logo-html5', level:'Advanced', count: 86
+      logo: 'logo-html5', level:'Avançado', count: 86
     },
     {
-      logo: 'logo-css3', level:'Advanced', count: 86
+      logo: 'logo-css3', level:'Avançado', count: 86
     },
     {
-      logo: 'logo-javascript', level:'Advanced', count: 86
+      logo: 'logo-javascript', level:'Avançado', count: 86
     },
     {
-      logo: 'logo-react', level:'Advanced', count: 86
+      logo: 'logo-react', level:'Avançado', count: 86
     },
     {
-      logo: 'logo-nodejs', level:'intermediate', count: 80
+      logo: 'logo-nodejs', level:'Intermediário', count: 80
     },
     {
-      logo: 'logo-python', level:'Advanced', count: 80
+      logo: 'logo-python', level:'Avançado', count: 80
     },
     {
-      logo: 'logo-docker', level:'Advanced', count: 80
+      logo: 'logo-docker', level:'Avançado', count: 80
     },
     {
-      logo: 'git-branch', level:'Advanced', count: 80
+      logo: 'git-branch', level:'Avançado', count: 80
     },
     {
-      logo: 'logo-github', level:'Advanced', count: 80
+      logo: 'logo-github', level:'Avançado', count: 80
     },
   ]
   return (
