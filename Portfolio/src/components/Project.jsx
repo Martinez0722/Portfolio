@@ -9,7 +9,19 @@ import project1 from '../assets/images/project-1.jpg';
 
 const Project = () => {
   const projetos = [
-    { },{}]
+    {
+      img: project1, 
+      name: 'Reactube', 
+      link_github: 'https://github.com/Martinez0722/Reactube', 
+      live_demo:'https://reactube1.netlify.app/'
+    },
+    {
+      img: project1, 
+      name: 'Reactube', 
+      link_github: 'https://github.com/Martinez0722/Reactube', 
+      live_demo:'https://reactube1.netlify.app/'
+    },
+  ]
   return (
   <section id="projects" className="py-10 text-white">
     <div className="text-center">
@@ -20,13 +32,13 @@ const Project = () => {
     </div>
     <br />
     <div className="flex max-1-6xl px-5 mx-auto items-center relative">
-      <div className="lg:w-2/3 w-full justify-center">
+      <div className="lg:w-3/3 w-full justify-center">
         <Swiper 
           slidePerview={1.2} 
           spaceBetween={20} 
           breakpoints={{
             768:{
-              slidesPerView:2
+              slidesPerView:3
             },
           }}
           loop={true} 
@@ -38,16 +50,24 @@ const Project = () => {
           }}
           modules={[Pagination, Autoplay]}
         >
-          <SwiperSlide>
+          {
+            projetos.map((projeto_info, i)=>(
+              <SwiperSlide key={i}>
             <div className="h-fit w-full p-4 bg-slate-700 rounded-xl">
-              <img src={project1} alt="" className="rounded-lg" />
-              <h3 className="text-xl my-4">Reactube</h3>
+              <img src={projeto_info.img} alt="" className="rounded-lg" />
+              <h3 className="text-xl my-4">{projeto_info.name}</h3>
               <div className="flex gap-3">
-                <a href="" className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block">Github</a>
-                <a href="" className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block">Link</a>
+                <a href={projeto_info.link_github} target="_blank" 
+                className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block">
+                  Github
+                </a>
+                <a href={projeto_info.live_demo} target="_blank"
+                 className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block">Link</a>
               </div>
             </div>
           </SwiperSlide>
+            ))
+          }
         </Swiper>
       </div>
     </div>
