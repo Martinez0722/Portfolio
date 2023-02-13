@@ -16,10 +16,7 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                eos, quam vel quisquam, explicabo sit labore dignissimos optio
-                ratione quibusdam doloribus pariatur consequuntur sint.
-                Reprehenderit cupiditate possimus facere quasi voluptatem?
+                Desenvolvedor full-stack com 1+ anos de experiência em desenvolvimento front-end e back-end, utilizando de tecnologias como JavaScript, React.js, Next.js, Tailwind, MaterialUI, Python, Flask, Django, Node.js e os bancos de dados como Mongodb, MySQL e PostgreSQL.
               </p>
               <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (

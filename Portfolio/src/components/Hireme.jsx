@@ -16,7 +16,7 @@ const Hireme = () => {
       <div>
         <h2 className="text-2xl font-semibold">Gostaria de me contatar ?</h2>
         <p className="lg:text-left text-justify text-sm mt-4 text-gray-200 leading-6">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat minima veritatis sapiente asperiores accusantium. Deserunt, ipsam! Libero ex tempora earum, amet reiciendis repellendus consequatur aliquid tenetur, mollitia cum distinctio totam.
+          Atualmente busco uma oportunidade profissional es
         </p>
         <button className="btn-primary mt-10">Diga olá</button>
       </div>
