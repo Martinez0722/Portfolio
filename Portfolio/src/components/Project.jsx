@@ -6,6 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import project1 from '../assets/images/project-1.jpg';
+import project2 from '../assets/images/project-2.jpg';
 
 const Project = () => {
   const projetos = [
@@ -16,10 +17,10 @@ const Project = () => {
       live_demo:'https://reactube1.netlify.app/'
     },
     {
-      img: project1, 
-      name: 'Reactube', 
-      link_github: 'https://github.com/Martinez0722/Reactube', 
-      live_demo:'https://reactube1.netlify.app/'
+      img: project2, 
+      name: 'Calculadora', 
+      link_github: 'https://github.com/Martinez0722/Calculadora', 
+      live_demo:'https://calculadora-two-ashy.vercel.app/'
     },
   ]
   return (
