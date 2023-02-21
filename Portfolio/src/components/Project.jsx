@@ -7,6 +7,7 @@ import "swiper/css/pagination";
 
 import project1 from '../assets/images/project-1.jpg';
 import project2 from '../assets/images/project-2.jpg';
+import project3 from '../assets/images/project-3.jpeg';
 
 const Project = () => {
   const projetos = [
@@ -21,6 +22,12 @@ const Project = () => {
       name: 'Calculadora', 
       link_github: 'https://github.com/Martinez0722/Calculadora', 
       live_demo:'https://calculadora-two-ashy.vercel.app/'
+    },
+    {
+      img: project3, 
+      name: 'OnlineShop Marketplace', 
+      link_github: 'https://github.com/Orozimbo1/OnlineShop',
+      live_demo:'https://online-shop-marketplace.vercel.app/'
     },
   ]
   return (
